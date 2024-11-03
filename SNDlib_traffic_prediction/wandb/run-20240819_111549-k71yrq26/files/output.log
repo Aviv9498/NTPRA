@@ -1,0 +1,19 @@
+
+Epoch 00008: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00014: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00020: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 00026: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00032: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 00038: reducing learning rate of group 0 to 1.5625e-06.
+Epoch 00044: reducing learning rate of group 0 to 7.8125e-07.
+Epoch 00050: reducing learning rate of group 0 to 3.9063e-07.
+Epoch 50/200, Train Loss: 771.8601 , Validation Loss: 772.8182
+Epoch 00056: reducing learning rate of group 0 to 1.9531e-07.
+Epoch 00062: reducing learning rate of group 0 to 9.7656e-08.
+Epoch 00068: reducing learning rate of group 0 to 4.8828e-08.
+Epoch 00074: reducing learning rate of group 0 to 2.4414e-08.
+Epoch 00080: reducing learning rate of group 0 to 1.2207e-08.
+Epoch 100/200, Train Loss: 765.6596 , Validation Loss: 771.4493
+Epoch 150/200, Train Loss: 765.1209 , Validation Loss: 771.4265
+Epoch 200/200, Train Loss: 763.8867 , Validation Loss: 771.4870
+Finished Training MLP, best model was epoch: 1

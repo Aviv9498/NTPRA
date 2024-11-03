@@ -1,0 +1,16 @@
+
+Training : RNN Model on : geant Dataset :
+Epoch 50/300, Train Loss: 79.4664 , Validation Loss: 96.0086
+Epoch 00098: reducing learning rate of group 0 to 2.5000e-03.
+Epoch 100/300, Train Loss: 67.4497 , Validation Loss: 88.0736
+Epoch 00144: reducing learning rate of group 0 to 1.2500e-03.
+Epoch 150/300, Train Loss: 61.8909 , Validation Loss: 84.6750
+Epoch 00196: reducing learning rate of group 0 to 6.2500e-04.
+Epoch 200/300, Train Loss: 59.1167 , Validation Loss: 82.6243
+Epoch 00225: reducing learning rate of group 0 to 3.1250e-04.
+Epoch 00236: reducing learning rate of group 0 to 1.5625e-04.
+Epoch 250/300, Train Loss: 58.5414 , Validation Loss: 82.3094
+Epoch 00263: reducing learning rate of group 0 to 7.8125e-05.
+Epoch 00281: reducing learning rate of group 0 to 3.9063e-05.
+Epoch 300/300, Train Loss: 57.9888 , Validation Loss: 82.0075
+Finished Training geant RNN, best model was epoch: 299

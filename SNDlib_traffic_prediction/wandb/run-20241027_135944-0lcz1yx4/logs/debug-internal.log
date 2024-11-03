@@ -1,0 +1,250 @@
+2024-10-27 13:59:44,616 INFO    StreamThr :352 [internal.py:wandb_internal():85] W&B internal server running at pid: 352, started at: 2024-10-27 13:59:44.613080
+2024-10-27 13:59:44,633 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status
+2024-10-27 13:59:44,636 INFO    WriterThread:352 [datastore.py:open_for_write():87] open: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\run-0lcz1yx4.wandb
+2024-10-27 13:59:44,637 DEBUG   SenderThread:352 [sender.py:send():379] send: header
+2024-10-27 13:59:44,906 DEBUG   SenderThread:352 [sender.py:send():379] send: run
+2024-10-27 13:59:45,486 INFO    SenderThread:352 [dir_watcher.py:__init__():211] watching files in: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files
+2024-10-27 13:59:45,487 INFO    SenderThread:352 [sender.py:_start_run_threads():1188] run started: 0lcz1yx4 with start time 1730030384.605101
+2024-10-27 13:59:45,512 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: check_version
+2024-10-27 13:59:45,512 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: check_version
+2024-10-27 13:59:45,804 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: run_start
+2024-10-27 13:59:45,813 DEBUG   HandlerThread:352 [system_info.py:__init__():26] System info init
+2024-10-27 13:59:45,813 DEBUG   HandlerThread:352 [system_info.py:__init__():41] System info init done
+2024-10-27 13:59:45,813 INFO    HandlerThread:352 [system_monitor.py:start():194] Starting system monitor
+2024-10-27 13:59:45,813 INFO    SystemMonitor:352 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-27 13:59:45,814 INFO    HandlerThread:352 [system_monitor.py:probe():214] Collecting system info
+2024-10-27 13:59:45,817 INFO    SystemMonitor:352 [interfaces.py:start():188] Started cpu monitoring
+2024-10-27 13:59:45,818 INFO    SystemMonitor:352 [interfaces.py:start():188] Started disk monitoring
+2024-10-27 13:59:45,821 DEBUG   HandlerThread:352 [system_info.py:probe():152] Probing system
+2024-10-27 13:59:45,823 INFO    SystemMonitor:352 [interfaces.py:start():188] Started gpu monitoring
+2024-10-27 13:59:45,829 INFO    SystemMonitor:352 [interfaces.py:start():188] Started memory monitoring
+2024-10-27 13:59:45,839 INFO    SystemMonitor:352 [interfaces.py:start():188] Started network monitoring
+2024-10-27 13:59:45,842 DEBUG   HandlerThread:352 [system_info.py:_probe_git():137] Probing git
+2024-10-27 13:59:46,209 DEBUG   HandlerThread:352 [system_info.py:_probe_git():145] Probing git done
+2024-10-27 13:59:46,209 DEBUG   HandlerThread:352 [system_info.py:probe():200] Probing system done
+2024-10-27 13:59:46,209 DEBUG   HandlerThread:352 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2024-10-27T11:59:45.823315', 'startedAt': '2024-10-27T11:59:44.591138', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py', 'codePathLocal': 'SNDlib_run.py', 'codePath': 'SNDlib_traffic_prediction\\SNDlib_run.py', 'git': {'remote': 'https://github.com/Aviv9498/DIAMOND', 'commit': 'a2927d761ab4f658da3157fdf9ac9c9ce6dea6e9'}, 'email': None, 'root': 'C:/Users/beaviv/DIAMOND', 'host': 'kc616-1', 'username': 'beaviv', 'executable': 'C:\\Users\\beaviv\\DIAMOND\\venv\\Scripts\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3696.0, 'min': 0.0, 'max': 3696.0}, 'cpu_freq_per_core': [{'current': 3696.0, 'min': 0.0, 'max': 3696.0}], 'disk': {'/': {'total': 926.6150741577148, 'used': 296.4341697692871}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 63.85584259033203}}
+2024-10-27 13:59:46,209 INFO    HandlerThread:352 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-27 13:59:46,209 INFO    HandlerThread:352 [system_monitor.py:probe():227] Publishing system info
+2024-10-27 13:59:46,212 INFO    HandlerThread:352 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-27 13:59:46,212 DEBUG   SenderThread:352 [sender.py:send():379] send: files
+2024-10-27 13:59:46,212 INFO    SenderThread:352 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-10-27 13:59:46,399 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-27 13:59:46,399 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: python_packages
+2024-10-27 13:59:46,400 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-27 13:59:46,401 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:46,401 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: stop_status
+2024-10-27 13:59:46,494 INFO    Thread-87 :352 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\requirements.txt
+2024-10-27 13:59:46,494 INFO    Thread-87 :352 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\wandb-metadata.json
+2024-10-27 13:59:46,837 DEBUG   SenderThread:352 [sender.py:send():379] send: telemetry
+2024-10-27 13:59:47,018 INFO    wandb-upload_0:352 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\AppData\Local\Temp\tmpw0z8wxyxwandb\dlk4tmlz-wandb-metadata.json
+2024-10-27 13:59:47,416 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:47,494 INFO    Thread-87 :352 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\output.log
+2024-10-27 13:59:48,419 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:49,432 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:49,512 INFO    Thread-87 :352 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\output.log
+2024-10-27 13:59:49,877 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 13:59:50,447 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:51,461 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:52,473 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:53,483 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:54,496 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:55,452 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 13:59:55,498 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:56,500 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:57,505 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:58,518 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 13:59:59,532 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:00,463 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:00,542 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:01,404 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-27 14:00:01,404 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: stop_status
+2024-10-27 14:00:01,529 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:02,542 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:03,541 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:04,542 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:05,546 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:05,673 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:06,555 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:07,560 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:08,562 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:09,563 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:10,579 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:11,458 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:11,583 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:11,964 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-27 14:00:11,965 DEBUG   SenderThread:352 [sender.py:send():379] send: history
+2024-10-27 14:00:11,965 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: summary_record
+2024-10-27 14:00:11,968 INFO    SenderThread:352 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-27 14:00:12,587 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:12,681 INFO    Thread-87 :352 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\wandb-summary.json
+2024-10-27 14:00:13,589 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:14,596 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:15,600 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:16,419 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-27 14:00:16,419 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: stop_status
+2024-10-27 14:00:16,608 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:16,684 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:17,623 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:17,719 INFO    Thread-87 :352 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\config.yaml
+2024-10-27 14:00:18,638 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:19,640 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:20,643 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:21,651 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:22,492 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:22,663 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:23,668 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:24,670 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:25,680 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:26,694 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:27,507 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:27,709 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:28,724 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:29,736 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:30,739 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:31,449 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-27 14:00:31,450 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: stop_status
+2024-10-27 14:00:31,746 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:32,659 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:32,751 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:33,763 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:34,765 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:35,767 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:36,169 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-27 14:00:36,170 DEBUG   SenderThread:352 [sender.py:send():379] send: history
+2024-10-27 14:00:36,171 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: summary_record
+2024-10-27 14:00:36,173 INFO    SenderThread:352 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-27 14:00:36,495 DEBUG   SenderThread:352 [sender.py:send():379] send: telemetry
+2024-10-27 14:00:36,495 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: server_info
+2024-10-27 14:00:36,496 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: server_info
+2024-10-27 14:00:36,691 DEBUG   SenderThread:352 [sender.py:send():379] send: exit
+2024-10-27 14:00:36,691 INFO    SenderThread:352 [sender.py:send_exit():586] handling exit code: 0
+2024-10-27 14:00:36,691 INFO    SenderThread:352 [sender.py:send_exit():588] handling runtime: 50
+2024-10-27 14:00:36,692 INFO    SenderThread:352 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-27 14:00:36,693 INFO    SenderThread:352 [sender.py:send_exit():594] send defer
+2024-10-27 14:00:36,693 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:36,693 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-27 14:00:36,694 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:36,694 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-10-27 14:00:36,694 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 1
+2024-10-27 14:00:36,694 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:36,694 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-27 14:00:36,694 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:36,695 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-10-27 14:00:36,695 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 2
+2024-10-27 14:00:36,695 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:36,695 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-27 14:00:36,695 INFO    HandlerThread:352 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-27 14:00:36,695 DEBUG   SystemMonitor:352 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-27 14:00:36,695 INFO    HandlerThread:352 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-27 14:00:36,709 DEBUG   SystemMonitor:352 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-27 14:00:36,712 INFO    HandlerThread:352 [interfaces.py:finish():200] Joined disk monitor
+2024-10-27 14:00:36,712 DEBUG   SystemMonitor:352 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-27 14:00:36,807 INFO    HandlerThread:352 [interfaces.py:finish():200] Joined gpu monitor
+2024-10-27 14:00:36,808 INFO    HandlerThread:352 [interfaces.py:finish():200] Joined memory monitor
+2024-10-27 14:00:36,808 INFO    HandlerThread:352 [interfaces.py:finish():200] Joined network monitor
+2024-10-27 14:00:36,809 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:36,809 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-10-27 14:00:36,809 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 3
+2024-10-27 14:00:36,809 DEBUG   SenderThread:352 [sender.py:send():379] send: stats
+2024-10-27 14:00:36,809 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:36,810 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-27 14:00:36,810 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:36,810 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-10-27 14:00:36,810 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 4
+2024-10-27 14:00:36,811 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:36,811 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-27 14:00:36,811 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:36,811 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-10-27 14:00:36,811 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 5
+2024-10-27 14:00:36,811 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:36,811 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-27 14:00:36,812 DEBUG   SenderThread:352 [sender.py:send():379] send: summary
+2024-10-27 14:00:36,813 INFO    SenderThread:352 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-27 14:00:36,814 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:36,814 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-10-27 14:00:36,814 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 6
+2024-10-27 14:00:36,814 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:36,814 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-27 14:00:36,815 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:36,815 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-10-27 14:00:36,822 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: status_report
+2024-10-27 14:00:36,851 INFO    Thread-87 :352 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\wandb-summary.json
+2024-10-27 14:00:37,039 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 7
+2024-10-27 14:00:37,039 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:37,039 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-27 14:00:37,040 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:37,040 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-10-27 14:00:37,166 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 8
+2024-10-27 14:00:37,166 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:37,166 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-27 14:00:37,167 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:37,167 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-10-27 14:00:37,167 INFO    SenderThread:352 [job_builder.py:build():440] Attempting to build job artifact
+2024-10-27 14:00:37,168 INFO    SenderThread:352 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-10-27 14:00:37,173 INFO    SenderThread:352 [job_builder.py:build():545] adding wandb-job metadata file
+2024-10-27 14:00:37,183 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 9
+2024-10-27 14:00:37,184 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:37,184 DEBUG   SenderThread:352 [sender.py:send():379] send: artifact
+2024-10-27 14:00:37,184 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-27 14:00:37,699 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-27 14:00:37,855 INFO    Thread-87 :352 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\config.yaml
+2024-10-27 14:00:37,855 INFO    Thread-87 :352 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\output.log
+2024-10-27 14:00:38,191 INFO    SenderThread:352 [sender.py:send_artifact():1530] sent artifact job-https___github.com_Aviv9498_DIAMOND_SNDlib_traffic_prediction_SNDlib_run.py - {'id': 'QXJ0aWZhY3Q6MTI5NjY1Njg4NA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjM3ODM3OTI4NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI5NjY1Njg4NA==', 'versionIndex': 6}}}
+2024-10-27 14:00:38,191 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:38,191 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-10-27 14:00:38,191 INFO    SenderThread:352 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-27 14:00:38,864 INFO    SenderThread:352 [dir_watcher.py:finish():388] scan: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files
+2024-10-27 14:00:38,864 INFO    SenderThread:352 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\config.yaml config.yaml
+2024-10-27 14:00:38,864 INFO    SenderThread:352 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\output.log output.log
+2024-10-27 14:00:38,867 INFO    SenderThread:352 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\requirements.txt requirements.txt
+2024-10-27 14:00:38,870 INFO    SenderThread:352 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\wandb-metadata.json wandb-metadata.json
+2024-10-27 14:00:38,870 INFO    SenderThread:352 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\wandb-summary.json wandb-summary.json
+2024-10-27 14:00:38,874 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 10
+2024-10-27 14:00:38,874 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: poll_exit
+2024-10-27 14:00:38,875 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:38,876 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-27 14:00:38,879 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:38,879 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-10-27 14:00:38,879 INFO    SenderThread:352 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-27 14:00:39,328 INFO    wandb-upload_0:352 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\config.yaml
+2024-10-27 14:00:39,537 INFO    wandb-upload_1:352 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\output.log
+2024-10-27 14:00:39,637 INFO    wandb-upload_2:352 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\requirements.txt
+2024-10-27 14:00:39,645 INFO    wandb-upload_3:352 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\files\wandb-summary.json
+2024-10-27 14:00:39,709 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-27 14:00:39,709 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: poll_exit
+2024-10-27 14:00:39,851 INFO    Thread-86 :352 [sender.py:transition_state():614] send defer: 11
+2024-10-27 14:00:39,851 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:39,851 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-27 14:00:39,851 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:39,852 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-10-27 14:00:39,852 INFO    SenderThread:352 [file_pusher.py:join():175] waiting for file pusher
+2024-10-27 14:00:39,852 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 12
+2024-10-27 14:00:39,853 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:39,853 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-27 14:00:39,853 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:39,853 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-10-27 14:00:39,853 INFO    SenderThread:352 [file_stream.py:finish():601] file stream finish called
+2024-10-27 14:00:40,065 INFO    SenderThread:352 [file_stream.py:finish():605] file stream finish is done
+2024-10-27 14:00:40,066 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 13
+2024-10-27 14:00:40,066 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:40,066 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-27 14:00:40,066 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:40,066 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-10-27 14:00:40,066 INFO    SenderThread:352 [sender.py:transition_state():614] send defer: 14
+2024-10-27 14:00:40,067 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: defer
+2024-10-27 14:00:40,067 DEBUG   SenderThread:352 [sender.py:send():379] send: final
+2024-10-27 14:00:40,067 INFO    HandlerThread:352 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-27 14:00:40,067 DEBUG   SenderThread:352 [sender.py:send():379] send: footer
+2024-10-27 14:00:40,067 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: defer
+2024-10-27 14:00:40,067 INFO    SenderThread:352 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-10-27 14:00:40,068 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-27 14:00:40,068 DEBUG   SenderThread:352 [sender.py:send_request():406] send_request: poll_exit
+2024-10-27 14:00:40,069 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-27 14:00:40,069 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-27 14:00:40,070 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-27 14:00:40,071 DEBUG   HandlerThread:352 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-27 14:00:40,071 INFO    HandlerThread:352 [handler.py:finish():882] shutting down handler
+2024-10-27 14:00:41,081 INFO    WriterThread:352 [datastore.py:close():296] close: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241027_135944-0lcz1yx4\run-0lcz1yx4.wandb
+2024-10-27 14:00:41,081 INFO    SenderThread:352 [sender.py:finish():1608] shutting down sender
+2024-10-27 14:00:41,081 INFO    SenderThread:352 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-27 14:00:41,081 INFO    SenderThread:352 [file_pusher.py:join():175] waiting for file pusher

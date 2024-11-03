@@ -1,0 +1,30 @@
+
+Epoch 10/400, Train Loss: 3002.7653 , Validation Loss: 3025.7574
+Epoch 20/400, Train Loss: 1560.2799 , Validation Loss: 1207.6753
+Epoch 30/400, Train Loss: 532.6367 , Validation Loss: 324.6283
+Epoch 40/400, Train Loss: 532.4083 , Validation Loss: 413.4132
+Epoch 50/400, Train Loss: 538.2418 , Validation Loss: 347.0606
+Epoch 60/400, Train Loss: 544.3330 , Validation Loss: 531.9233
+Epoch 70/400, Train Loss: 534.9439 , Validation Loss: 325.7321
+Epoch 80/400, Train Loss: 538.6318 , Validation Loss: 356.3393
+Epoch 90/400, Train Loss: 528.9514 , Validation Loss: 384.8539
+Epoch 100/400, Train Loss: 533.5233 , Validation Loss: 309.8236
+Epoch 110/400, Train Loss: 532.6334 , Validation Loss: 400.5441
+Epoch 120/400, Train Loss: 534.0688 , Validation Loss: 312.0606
+Epoch 130/400, Train Loss: 534.8754 , Validation Loss: 352.8554
+Epoch 140/400, Train Loss: 534.9735 , Validation Loss: 455.2468
+Epoch 150/400, Train Loss: 530.8020 , Validation Loss: 424.8848
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 546, in <module>
+    NTP(model_type='LSTM', training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 541, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 283, in train
+    optimizer.zero_grad()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 285, in zero_grad
+    torch._foreach_zero_(grads)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\autograd\profiler.py", line 493, in __exit__
+    torch.ops.profiler._record_function_exit(self.handle)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\_ops.py", line 442, in __call__
+    return self._op(*args, **kwargs or {})
+KeyboardInterrupt

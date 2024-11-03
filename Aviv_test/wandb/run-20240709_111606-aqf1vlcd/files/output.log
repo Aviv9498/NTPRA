@@ -1,0 +1,16 @@
+
+Epoch 10/100, Train Loss: 156.9098 , Validation Loss: 200.2710
+Epoch 20/100, Train Loss: 153.6801 , Validation Loss: 205.3416
+Epoch 30/100, Train Loss: 151.5475 , Validation Loss: 225.3206
+Epoch 40/100, Train Loss: 151.1083 , Validation Loss: 302.3865
+Epoch 50/100, Train Loss: 151.1690 , Validation Loss: 279.5923
+Epoch 60/100, Train Loss: 150.4140 , Validation Loss: 269.2896
+Epoch 70/100, Train Loss: 151.0988 , Validation Loss: 302.8407
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 610, in <module>
+    NTP(model_type='Transformer', training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 605, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 335, in train
+    X_batch, y_batch = X_train[indices], y_train[indices]
+KeyboardInterrupt

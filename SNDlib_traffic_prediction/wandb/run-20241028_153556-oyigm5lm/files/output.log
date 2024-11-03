@@ -1,0 +1,18 @@
+
+Training : GNN Model on : geant Dataset :
+Epoch 00042: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 50/300, Train Loss: 68.4448 , Validation Loss: 92.2585
+Epoch 00055: reducing learning rate of group 0 to 2.5000e-04.
+Epoch 00080: reducing learning rate of group 0 to 1.2500e-04.
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 160, in <module>
+    run(model_name=model_name, dataset='geant', training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 149, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 83, in train
+    loss.backward()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\autograd\__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

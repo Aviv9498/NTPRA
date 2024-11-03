@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch_geometric\nn\conv\message_passing.py", line 336, in _index_select_safe
+    raise e
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch_geometric\nn\conv\message_passing.py", line 317, in _index_select_safe
+    return src.index_select(self.node_dim, index)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper__index_select)

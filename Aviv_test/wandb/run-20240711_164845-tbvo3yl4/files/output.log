@@ -1,0 +1,12 @@
+
+Epoch 10/100, Train Loss: 513.7435 , Validation Loss: 512.4010
+Epoch 20/100, Train Loss: 502.7426 , Validation Loss: 501.4961
+Epoch 30/100, Train Loss: 491.8874 , Validation Loss: 490.6919
+Epoch 40/100, Train Loss: 481.0752 , Validation Loss: 480.0082
+Epoch 50/100, Train Loss: 470.4642 , Validation Loss: 469.4938
+Epoch 60/100, Train Loss: 460.3581 , Validation Loss: 459.2915
+Epoch 70/100, Train Loss: 450.5255 , Validation Loss: 449.5402
+Epoch 80/100, Train Loss: 441.2036 , Validation Loss: 440.1973
+Epoch 90/100, Train Loss: 432.2972 , Validation Loss: 431.2683
+Epoch 100/100, Train Loss: 423.7063 , Validation Loss: 422.8478
+Finished Training, best model was epoch: 99

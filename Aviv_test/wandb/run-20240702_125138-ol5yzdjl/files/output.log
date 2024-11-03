@@ -1,0 +1,15 @@
+
+Epoch 10/300, Train Loss: 0.0349 , Validation Loss: 0.0280
+Epoch 20/300, Train Loss: 0.0347 , Validation Loss: 0.0277
+Epoch 30/300, Train Loss: 0.0348 , Validation Loss: 0.0301
+Epoch 40/300, Train Loss: 0.0348 , Validation Loss: 0.0303
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 421, in <module>
+    NTP(model_type='GRU', training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 416, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 215, in train
+    optimizer.zero_grad()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 279, in zero_grad
+    p.grad.zero_()
+KeyboardInterrupt

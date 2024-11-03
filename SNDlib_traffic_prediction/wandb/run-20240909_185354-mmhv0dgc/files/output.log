@@ -1,0 +1,8 @@
+
+Epoch 00021: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00027: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00033: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 00039: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00045: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 50/50, Train Loss: 7567.4255 , Validation Loss: 1399.0607
+Finished Training MLP, best model was epoch: 14

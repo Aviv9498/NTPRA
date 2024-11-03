@@ -1,0 +1,22 @@
+
+Training : GNN Model on : geant Dataset :
+Epoch 50/300, Train Loss: 70.0162 , Validation Loss: 92.4860
+Epoch 00080: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 100/300, Train Loss: 68.5445 , Validation Loss: 91.9438
+Epoch 00112: reducing learning rate of group 0 to 2.5000e-04.
+Epoch 00124: reducing learning rate of group 0 to 1.2500e-04.
+Epoch 00136: reducing learning rate of group 0 to 6.2500e-05.
+Epoch 00147: reducing learning rate of group 0 to 3.1250e-05.
+Epoch 150/300, Train Loss: 66.3462 , Validation Loss: 92.0011
+Epoch 00158: reducing learning rate of group 0 to 1.5625e-05.
+Epoch 00169: reducing learning rate of group 0 to 7.8125e-06.
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 160, in <module>
+    run(model_name=model_name, dataset='geant', training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 149, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 81, in train
+    loss += l1_parameter * l1_reg(model=model)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 167, in l1_reg
+    l1_regularization += torch.sum(torch.abs(param))
+KeyboardInterrupt

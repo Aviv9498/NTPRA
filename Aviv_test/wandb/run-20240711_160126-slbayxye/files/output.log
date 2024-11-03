@@ -1,0 +1,32 @@
+
+Epoch 00007: reducing learning rate of group 0 to 2.5000e-04.
+Epoch 10/100, Train Loss: 121.4761 , Validation Loss: 399.5891
+Epoch 00013: reducing learning rate of group 0 to 1.2500e-04.
+Epoch 00019: reducing learning rate of group 0 to 6.2500e-05.
+Epoch 20/100, Train Loss: 116.4225 , Validation Loss: 370.0988
+Epoch 00025: reducing learning rate of group 0 to 3.1250e-05.
+Epoch 30/100, Train Loss: 114.9174 , Validation Loss: 432.0218
+Epoch 00031: reducing learning rate of group 0 to 1.5625e-05.
+Epoch 00037: reducing learning rate of group 0 to 7.8125e-06.
+Epoch 40/100, Train Loss: 114.1563 , Validation Loss: 406.6506
+Epoch 00043: reducing learning rate of group 0 to 3.9063e-06.
+Epoch 00049: reducing learning rate of group 0 to 1.9531e-06.
+Epoch 50/100, Train Loss: 114.0537 , Validation Loss: 424.4390
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 404, in <module>
+    NTP(model_type='Transformer', training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 399, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 187, in train
+    optimizer.step()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 234, in step
+    adam(params_with_grad,
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 300, in adam
+    func(params,
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 364, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad.conj(), value=1 - beta2)
+KeyboardInterrupt

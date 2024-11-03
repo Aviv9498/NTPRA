@@ -1,0 +1,8 @@
+
+Epoch 00024: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00030: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00036: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 00042: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00048: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 50/50, Train Loss: 7723.3591 , Validation Loss: 860.1344
+Finished Training GNN, best model was epoch: 17

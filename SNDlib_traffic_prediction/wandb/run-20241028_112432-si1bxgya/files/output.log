@@ -1,0 +1,5 @@
+
+Training : RNN Model on : geant Dataset :
+Epoch 50/100, Train Loss: 92.3260 , Validation Loss: 105.4739
+Epoch 100/100, Train Loss: 88.8955 , Validation Loss: 103.6850
+Finished Training geant RNN, best model was epoch: 99

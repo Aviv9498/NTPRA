@@ -1,0 +1,27 @@
+
+Epoch 00008: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00014: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00020: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 00026: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00032: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 00038: reducing learning rate of group 0 to 1.5625e-06.
+Epoch 00044: reducing learning rate of group 0 to 7.8125e-07.
+Epoch 00050: reducing learning rate of group 0 to 3.9063e-07.
+Epoch 50/100, Train Loss: 7622.8299 , Validation Loss: 1145.5736
+Epoch 00056: reducing learning rate of group 0 to 1.9531e-07.
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 125, in <module>
+    run(model_name='GNN', training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 119, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 74, in train
+    output = model(X_batch)        # output = model(X_batch.unsqueeze(-1))
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_Prediction_Model.py", line 144, in forward
+    out, _ = self.lstm(x, (h0, c0))
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\rnn.py", line 774, in forward
+    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+KeyboardInterrupt

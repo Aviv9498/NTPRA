@@ -1,0 +1,43 @@
+
+Epoch 10/500, Train Loss: 8902.7999 , Validation Loss: 1433.7694
+Epoch 20/500, Train Loss: 8671.9235 , Validation Loss: 1316.8129
+Epoch 30/500, Train Loss: 8567.3065 , Validation Loss: 1232.4642
+Epoch 40/500, Train Loss: 8458.1596 , Validation Loss: 1170.1905
+Epoch 50/500, Train Loss: 8355.6203 , Validation Loss: 1123.6892
+Epoch 60/500, Train Loss: 8305.3383 , Validation Loss: 1088.5414
+Epoch 70/500, Train Loss: 8257.0917 , Validation Loss: 1062.1769
+Epoch 80/500, Train Loss: 8218.0084 , Validation Loss: 1043.3205
+Epoch 90/500, Train Loss: 8199.7126 , Validation Loss: 1030.3356
+Epoch 100/500, Train Loss: 8184.3168 , Validation Loss: 1021.0116
+Epoch 110/500, Train Loss: 8137.2516 , Validation Loss: 1014.8959
+Epoch 120/500, Train Loss: 8132.3911 , Validation Loss: 1012.2528
+Epoch 130/500, Train Loss: 8128.9583 , Validation Loss: 1011.7232
+Epoch 00134: reducing learning rate of group 0 to 2.5000e-04.
+Epoch 00140: reducing learning rate of group 0 to 1.2500e-04.
+Epoch 140/500, Train Loss: 8116.2700 , Validation Loss: 1011.6711
+Epoch 00146: reducing learning rate of group 0 to 6.2500e-05.
+Epoch 150/500, Train Loss: 8135.8751 , Validation Loss: 1011.6885
+Epoch 00152: reducing learning rate of group 0 to 3.1250e-05.
+Epoch 00158: reducing learning rate of group 0 to 1.5625e-05.
+Epoch 160/500, Train Loss: 8118.3875 , Validation Loss: 1011.7058
+Epoch 00164: reducing learning rate of group 0 to 7.8125e-06.
+Epoch 00170: reducing learning rate of group 0 to 3.9063e-06.
+Epoch 170/500, Train Loss: 8115.1927 , Validation Loss: 1011.7090
+Epoch 00176: reducing learning rate of group 0 to 1.9531e-06.
+Epoch 180/500, Train Loss: 8132.4467 , Validation Loss: 1011.7097
+Epoch 00182: reducing learning rate of group 0 to 9.7656e-07.
+Epoch 00188: reducing learning rate of group 0 to 4.8828e-07.
+Epoch 190/500, Train Loss: 8121.0800 , Validation Loss: 1011.7099
+Epoch 00194: reducing learning rate of group 0 to 2.4414e-07.
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 86, in <module>
+    run(training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 81, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 73, in train
+    loss.backward()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\autograd\__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

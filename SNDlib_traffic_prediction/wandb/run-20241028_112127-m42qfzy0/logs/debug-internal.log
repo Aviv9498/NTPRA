@@ -1,0 +1,909 @@
+2024-10-28 11:21:27,886 INFO    StreamThr :15208 [internal.py:wandb_internal():85] W&B internal server running at pid: 15208, started at: 2024-10-28 11:21:27.886503
+2024-10-28 11:21:27,888 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status
+2024-10-28 11:21:27,913 INFO    WriterThread:15208 [datastore.py:open_for_write():87] open: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\run-m42qfzy0.wandb
+2024-10-28 11:21:27,914 DEBUG   SenderThread:15208 [sender.py:send():379] send: header
+2024-10-28 11:21:28,058 DEBUG   SenderThread:15208 [sender.py:send():379] send: run
+2024-10-28 11:21:28,830 INFO    SenderThread:15208 [dir_watcher.py:__init__():211] watching files in: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files
+2024-10-28 11:21:28,830 INFO    SenderThread:15208 [sender.py:_start_run_threads():1188] run started: m42qfzy0 with start time 1730107287.908474
+2024-10-28 11:21:28,846 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: check_version
+2024-10-28 11:21:28,847 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: check_version
+2024-10-28 11:21:29,146 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: run_start
+2024-10-28 11:21:29,178 DEBUG   HandlerThread:15208 [system_info.py:__init__():26] System info init
+2024-10-28 11:21:29,178 DEBUG   HandlerThread:15208 [system_info.py:__init__():41] System info init done
+2024-10-28 11:21:29,178 INFO    HandlerThread:15208 [system_monitor.py:start():194] Starting system monitor
+2024-10-28 11:21:29,179 INFO    SystemMonitor:15208 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-28 11:21:29,179 INFO    HandlerThread:15208 [system_monitor.py:probe():214] Collecting system info
+2024-10-28 11:21:29,183 INFO    SystemMonitor:15208 [interfaces.py:start():188] Started cpu monitoring
+2024-10-28 11:21:29,184 INFO    SystemMonitor:15208 [interfaces.py:start():188] Started disk monitoring
+2024-10-28 11:21:29,185 INFO    SystemMonitor:15208 [interfaces.py:start():188] Started gpu monitoring
+2024-10-28 11:21:29,191 INFO    SystemMonitor:15208 [interfaces.py:start():188] Started memory monitoring
+2024-10-28 11:21:29,201 INFO    SystemMonitor:15208 [interfaces.py:start():188] Started network monitoring
+2024-10-28 11:21:29,203 DEBUG   HandlerThread:15208 [system_info.py:probe():152] Probing system
+2024-10-28 11:21:29,206 DEBUG   HandlerThread:15208 [system_info.py:_probe_git():137] Probing git
+2024-10-28 11:21:29,504 DEBUG   HandlerThread:15208 [system_info.py:_probe_git():145] Probing git done
+2024-10-28 11:21:29,504 DEBUG   HandlerThread:15208 [system_info.py:probe():200] Probing system done
+2024-10-28 11:21:29,505 DEBUG   HandlerThread:15208 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2024-10-28T09:21:29.204339', 'startedAt': '2024-10-28T09:21:27.875531', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py', 'codePathLocal': 'SNDlib_run.py', 'codePath': 'SNDlib_traffic_prediction\\SNDlib_run.py', 'git': {'remote': 'https://github.com/Aviv9498/DIAMOND', 'commit': 'a2927d761ab4f658da3157fdf9ac9c9ce6dea6e9'}, 'email': None, 'root': 'C:/Users/beaviv/DIAMOND', 'host': 'kc616-1', 'username': 'beaviv', 'executable': 'C:\\Users\\beaviv\\DIAMOND\\venv\\Scripts\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3696.0, 'min': 0.0, 'max': 3696.0}, 'cpu_freq_per_core': [{'current': 3696.0, 'min': 0.0, 'max': 3696.0}], 'disk': {'/': {'total': 926.6150741577148, 'used': 298.8418312072754}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 63.85584259033203}}
+2024-10-28 11:21:29,505 INFO    HandlerThread:15208 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-28 11:21:29,505 INFO    HandlerThread:15208 [system_monitor.py:probe():227] Publishing system info
+2024-10-28 11:21:29,506 INFO    HandlerThread:15208 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-28 11:21:29,518 DEBUG   SenderThread:15208 [sender.py:send():379] send: files
+2024-10-28 11:21:29,519 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-10-28 11:21:29,846 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-metadata.json
+2024-10-28 11:21:29,999 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-28 11:21:29,999 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: python_packages
+2024-10-28 11:21:30,000 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:21:30,001 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:30,001 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:21:30,201 DEBUG   SenderThread:15208 [sender.py:send():379] send: telemetry
+2024-10-28 11:21:30,394 INFO    wandb-upload_0:15208 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\AppData\Local\Temp\tmpg8o3qolvwandb\61516bt5-wandb-metadata.json
+2024-10-28 11:21:30,860 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\requirements.txt
+2024-10-28 11:21:30,861 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\output.log
+2024-10-28 11:21:31,018 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:32,033 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:32,589 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:32,591 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:32,591 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:32,593 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:32,877 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\output.log
+2024-10-28 11:21:32,877 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:33,049 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:33,604 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:21:34,064 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:34,324 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:34,324 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:34,324 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:34,325 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:34,905 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:35,080 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:36,092 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:36,142 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:36,143 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:36,143 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:36,144 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:36,935 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:37,094 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:38,107 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:38,611 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:38,611 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:38,612 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:38,612 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:21:38,613 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:38,964 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:39,122 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:40,129 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:40,306 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:40,307 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:40,307 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:40,309 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:40,981 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:41,137 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:42,151 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:42,169 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:42,170 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:42,170 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:42,172 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:42,995 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:43,165 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:44,179 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:44,193 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:21:44,342 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:44,343 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:44,343 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:44,345 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:45,018 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:21:45,019 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:21:45,021 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:45,191 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:46,195 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:46,649 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:46,650 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:46,650 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:46,651 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:47,047 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:47,199 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:48,208 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:48,562 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:48,563 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:48,563 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:48,565 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:49,055 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:49,214 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:49,579 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:21:50,208 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:50,385 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:50,386 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:50,386 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:50,387 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:51,077 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:51,221 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:52,171 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:52,171 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:52,171 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:52,173 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:52,363 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:53,086 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:53,369 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:54,082 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:54,083 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:54,083 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:54,084 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:54,096 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:54,380 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:55,056 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:21:55,388 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:55,995 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:55,996 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:55,996 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:55,998 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:56,113 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:56,393 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:57,403 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:57,953 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:57,954 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:57,954 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:57,955 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:21:58,132 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:21:58,412 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:59,415 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:21:59,774 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:21:59,790 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:21:59,790 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:21:59,807 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:00,026 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:22:00,027 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:22:00,153 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:00,297 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:00,417 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:01,165 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\config.yaml
+2024-10-28 11:22:01,431 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:01,564 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:01,565 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:01,565 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:01,566 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:02,170 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:02,438 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:03,449 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:03,455 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:03,456 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:03,456 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:03,458 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:04,197 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:04,464 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:05,062 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:05,063 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:05,063 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:05,064 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:05,206 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:05,479 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:06,074 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:06,485 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:06,810 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:06,811 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:06,811 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:06,813 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:07,232 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:07,500 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:08,502 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:08,601 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:08,602 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:08,602 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:08,604 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:09,235 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:09,505 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:10,446 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:10,447 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:10,447 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:10,449 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:10,655 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:11,264 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:11,454 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:11,659 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:12,295 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:12,295 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:12,295 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:12,297 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:12,662 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:13,269 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:13,667 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:13,787 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:13,788 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:13,789 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:13,791 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:14,274 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:14,672 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:15,022 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:22:15,022 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:22:15,560 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:15,561 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:15,561 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:15,563 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:15,755 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:16,292 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:16,577 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:16,766 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:17,369 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:17,369 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:17,370 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:17,371 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:17,779 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:18,319 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:18,793 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:19,165 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:19,166 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:19,166 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:19,167 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:19,333 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:19,805 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:20,808 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:20,926 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:20,927 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:20,927 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:20,929 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:21,349 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:21,804 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:21,930 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:22,666 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:22,667 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:22,667 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:22,668 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:22,857 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:23,363 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:23,868 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:24,528 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:24,529 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:24,529 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:24,530 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:24,883 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:25,392 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:25,894 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:26,106 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:26,106 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:26,106 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:26,108 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:26,398 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:26,904 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:27,110 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:27,831 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:27,832 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:27,832 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:27,834 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:27,918 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:28,428 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:28,918 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:29,216 DEBUG   SystemMonitor:15208 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-28 11:22:29,217 DEBUG   SenderThread:15208 [sender.py:send():379] send: stats
+2024-10-28 11:22:29,346 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:29,346 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:29,346 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:29,347 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:29,439 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:29,917 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:30,044 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:22:30,044 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:22:30,933 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:31,076 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:31,077 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:31,077 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:31,078 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:31,458 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:31,949 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:32,559 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:32,560 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:32,560 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:32,560 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:32,561 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:32,964 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:33,488 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:33,989 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:34,147 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:34,147 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:34,147 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:34,148 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:34,490 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:34,984 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:35,832 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:35,833 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:35,833 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:35,834 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:36,052 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:36,504 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:37,058 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:37,543 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:37,544 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:37,544 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:37,545 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:38,071 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:38,533 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:38,548 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:39,086 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:39,466 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:39,466 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:39,467 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:39,469 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:39,548 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:40,099 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:40,893 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:40,894 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:40,894 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:40,896 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:41,114 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:41,558 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:42,129 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:42,393 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:42,394 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:42,395 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:42,396 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:42,568 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:43,140 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:43,820 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:43,821 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:43,822 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:43,822 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:43,823 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:44,156 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:44,583 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:45,043 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:22:45,043 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:22:45,170 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:45,350 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:45,351 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:45,351 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:45,352 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:45,584 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:46,182 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:46,903 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:46,904 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:46,905 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:46,906 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:47,184 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:47,600 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:48,185 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:48,563 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:48,563 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:48,564 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:48,565 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:48,610 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:49,188 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:49,570 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:50,087 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:50,088 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:50,088 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:50,090 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:50,287 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:50,630 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:51,297 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:51,753 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:51,753 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:51,754 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:51,755 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:52,310 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:52,643 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:53,325 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:53,412 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:53,413 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:53,413 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:53,415 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:53,661 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:54,327 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:55,093 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:55,094 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:55,094 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:55,094 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:22:55,095 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:55,340 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:55,675 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:56,339 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:56,666 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:56,667 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:56,667 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:56,669 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:56,689 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:57,353 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:58,193 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:58,194 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:58,194 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:58,196 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:22:58,356 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:58,705 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:22:59,228 DEBUG   SenderThread:15208 [sender.py:send():379] send: stats
+2024-10-28 11:22:59,372 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:22:59,833 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:22:59,834 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:22:59,834 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:22:59,835 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:00,039 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:23:00,039 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:23:00,270 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:00,382 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:00,722 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\output.log
+2024-10-28 11:23:00,723 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:01,331 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:01,332 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:01,332 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:01,334 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:01,388 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:01,738 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:02,403 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:02,859 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:02,860 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:02,860 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:02,862 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:03,403 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:03,754 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:04,419 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:04,440 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:04,441 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:04,442 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:04,443 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:04,767 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:05,309 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:05,420 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:06,070 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:06,071 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:06,071 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:06,072 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:06,436 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:06,786 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:07,451 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:07,917 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:07,917 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:07,918 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:07,919 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:08,451 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:08,802 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:09,466 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:09,686 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:09,686 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:09,687 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:09,688 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:09,818 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:10,469 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:11,277 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:11,278 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:11,279 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:11,280 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:11,281 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:11,473 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:11,823 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:12,474 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:13,074 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:13,075 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:13,076 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:13,077 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:13,487 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:13,839 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:14,489 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:14,847 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:14,848 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:14,848 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:14,850 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:14,852 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:15,042 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:23:15,042 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:23:15,504 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:16,310 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:16,347 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:16,348 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:16,349 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:16,350 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:16,516 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:16,866 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:17,530 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:17,897 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:17,898 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:17,898 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:17,899 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:18,545 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:18,893 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:19,546 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:19,681 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:19,682 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:19,683 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:19,684 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:19,896 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:20,549 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:21,207 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:21,208 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:21,208 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:21,209 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:21,553 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:21,905 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:22,222 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:22,554 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:22,992 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:22,993 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:22,993 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:22,994 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:23,563 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:23,929 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:24,573 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:24,844 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:24,845 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:24,845 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:24,846 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:24,938 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:25,587 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:26,566 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:26,567 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:26,567 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:26,568 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:26,600 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:26,967 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:27,585 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:27,617 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:28,115 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:28,115 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:28,116 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:28,117 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:28,618 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:28,984 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:29,239 DEBUG   SenderThread:15208 [sender.py:send():379] send: stats
+2024-10-28 11:23:29,620 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:29,668 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:29,669 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:29,669 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:29,670 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:29,986 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:30,040 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:23:30,041 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:23:30,625 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:31,393 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:31,394 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:31,394 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:31,395 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:31,640 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:32,005 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:32,642 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:33,093 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:33,094 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:33,094 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:33,094 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:33,096 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:33,657 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:34,021 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:34,671 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:34,845 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:34,846 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:34,846 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:34,848 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:35,024 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:35,675 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:36,388 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:36,389 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:36,389 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:36,390 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:36,685 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:37,035 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:37,688 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:38,138 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:38,139 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:38,139 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:38,139 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:38,140 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:38,701 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:39,045 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:39,714 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:39,771 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:39,772 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:39,773 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:39,774 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:40,059 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:40,727 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:41,297 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:41,298 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:41,298 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:41,299 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:41,742 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:42,062 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:42,744 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:43,032 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:43,033 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:43,033 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:43,034 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:43,077 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:43,757 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:44,044 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:44,527 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:44,528 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:44,528 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:44,530 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:44,772 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:45,042 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:23:45,042 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:23:45,104 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:45,783 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:46,117 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:46,118 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:46,118 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:46,120 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:46,795 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:47,128 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:47,677 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:47,678 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:47,678 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:47,679 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:47,880 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:48,129 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:48,889 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:49,439 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:49,440 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:49,440 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:49,440 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:49,442 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:49,890 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:50,159 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:50,868 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:50,869 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:50,869 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:50,870 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:51,069 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:51,175 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:52,081 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:52,654 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:52,655 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:52,655 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:52,656 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:53,082 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:53,178 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:54,096 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:54,462 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:54,463 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:54,464 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:54,464 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:23:54,465 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:55,107 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:55,203 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:56,122 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:56,247 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:56,247 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:56,248 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:56,250 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:57,137 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:57,234 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:57,941 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:57,942 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:57,942 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:57,944 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:23:58,153 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:58,249 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:23:59,158 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:23:59,254 DEBUG   SenderThread:15208 [sender.py:send():379] send: stats
+2024-10-28 11:23:59,430 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:23:59,431 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:23:59,431 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:23:59,432 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:00,047 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:24:00,048 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:24:00,178 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:00,267 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:00,340 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:24:01,110 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:01,111 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:01,111 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:01,113 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:01,188 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:01,268 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:02,202 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:02,693 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:02,694 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:02,694 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:02,696 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:03,213 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:03,294 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:04,197 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:04,198 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:04,198 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:04,199 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:04,296 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:04,393 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:05,393 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:24:05,409 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:05,872 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:05,873 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:05,873 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:05,874 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:06,313 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:06,424 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:07,430 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:07,531 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:07,532 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:07,532 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:07,534 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:08,321 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:08,431 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:09,344 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:09,345 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:09,345 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:09,346 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:09,561 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:10,350 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:10,397 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:24:10,571 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:11,061 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:11,061 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:11,062 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:11,062 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:11,352 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:11,573 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:12,574 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:12,733 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:12,734 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:12,734 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:12,736 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:13,355 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:13,578 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:14,446 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:14,447 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:14,447 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:14,449 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:14,656 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:15,069 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 11:24:15,070 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 11:24:15,372 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:15,403 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:24:15,659 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:16,164 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:16,165 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:16,165 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:16,167 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:16,383 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:16,661 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:17,666 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:17,867 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:17,869 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:17,869 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:17,871 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:18,400 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:18,670 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:19,396 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:19,397 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:19,397 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:19,398 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:19,405 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:19,674 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:20,406 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:24:20,677 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:21,183 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-28 11:24:21,184 DEBUG   SenderThread:15208 [sender.py:send():379] send: history
+2024-10-28 11:24:21,185 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: summary_record
+2024-10-28 11:24:21,186 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:21,418 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:21,756 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:21,756 DEBUG   SenderThread:15208 [sender.py:send():379] send: telemetry
+2024-10-28 11:24:21,757 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: server_info
+2024-10-28 11:24:21,757 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: server_info
+2024-10-28 11:24:21,950 DEBUG   SenderThread:15208 [sender.py:send():379] send: exit
+2024-10-28 11:24:21,950 INFO    SenderThread:15208 [sender.py:send_exit():586] handling exit code: 0
+2024-10-28 11:24:21,950 INFO    SenderThread:15208 [sender.py:send_exit():588] handling runtime: 172
+2024-10-28 11:24:21,951 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:21,951 INFO    SenderThread:15208 [sender.py:send_exit():594] send defer
+2024-10-28 11:24:21,951 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:21,951 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-28 11:24:21,952 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:21,952 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-10-28 11:24:21,952 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 1
+2024-10-28 11:24:21,952 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:21,952 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-28 11:24:21,952 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:21,952 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-10-28 11:24:21,952 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 2
+2024-10-28 11:24:21,952 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:21,952 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-28 11:24:21,953 INFO    HandlerThread:15208 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-28 11:24:21,953 DEBUG   SystemMonitor:15208 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-28 11:24:21,953 DEBUG   SystemMonitor:15208 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-28 11:24:21,953 INFO    HandlerThread:15208 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-28 11:24:21,965 INFO    HandlerThread:15208 [interfaces.py:finish():200] Joined disk monitor
+2024-10-28 11:24:22,030 INFO    HandlerThread:15208 [interfaces.py:finish():200] Joined gpu monitor
+2024-10-28 11:24:22,030 INFO    HandlerThread:15208 [interfaces.py:finish():200] Joined memory monitor
+2024-10-28 11:24:22,030 INFO    HandlerThread:15208 [interfaces.py:finish():200] Joined network monitor
+2024-10-28 11:24:22,031 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:22,031 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-10-28 11:24:22,031 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 3
+2024-10-28 11:24:22,031 DEBUG   SenderThread:15208 [sender.py:send():379] send: stats
+2024-10-28 11:24:22,031 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:22,031 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-28 11:24:22,032 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:22,032 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-10-28 11:24:22,032 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 4
+2024-10-28 11:24:22,032 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:22,032 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-28 11:24:22,032 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:22,032 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-10-28 11:24:22,032 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 5
+2024-10-28 11:24:22,032 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:22,033 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-28 11:24:22,033 DEBUG   SenderThread:15208 [sender.py:send():379] send: summary
+2024-10-28 11:24:22,034 INFO    SenderThread:15208 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-28 11:24:22,034 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:22,034 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-10-28 11:24:22,034 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 6
+2024-10-28 11:24:22,034 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:22,034 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-28 11:24:22,035 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:22,035 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-10-28 11:24:22,038 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 11:24:22,271 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 7
+2024-10-28 11:24:22,272 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:22,272 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-28 11:24:22,273 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:22,273 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-10-28 11:24:22,432 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:22,433 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\config.yaml
+2024-10-28 11:24:22,877 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 8
+2024-10-28 11:24:22,877 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:22,878 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-28 11:24:22,879 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:22,879 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-10-28 11:24:22,879 INFO    SenderThread:15208 [job_builder.py:build():440] Attempting to build job artifact
+2024-10-28 11:24:22,882 INFO    SenderThread:15208 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-10-28 11:24:22,955 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-28 11:24:23,445 INFO    Thread-16 :15208 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\output.log
+2024-10-28 11:24:23,551 INFO    SenderThread:15208 [job_builder.py:build():545] adding wandb-job metadata file
+2024-10-28 11:24:23,560 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 9
+2024-10-28 11:24:23,560 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: poll_exit
+2024-10-28 11:24:23,560 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:23,560 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-28 11:24:23,561 DEBUG   SenderThread:15208 [sender.py:send():379] send: artifact
+2024-10-28 11:24:23,965 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-28 11:24:24,608 INFO    SenderThread:15208 [sender.py:send_artifact():1530] sent artifact job-https___github.com_Aviv9498_DIAMOND_SNDlib_traffic_prediction_SNDlib_run.py - {'id': 'QXJ0aWZhY3Q6MTI5NjY1Njg4NA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjM3ODM3OTI4NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI5NzcyMjU2Nw==', 'versionIndex': 7}}}
+2024-10-28 11:24:24,608 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:24,608 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-10-28 11:24:24,608 INFO    SenderThread:15208 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-28 11:24:25,471 INFO    SenderThread:15208 [dir_watcher.py:finish():388] scan: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files
+2024-10-28 11:24:25,472 INFO    SenderThread:15208 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\config.yaml config.yaml
+2024-10-28 11:24:25,473 INFO    SenderThread:15208 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\output.log output.log
+2024-10-28 11:24:25,475 INFO    SenderThread:15208 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\requirements.txt requirements.txt
+2024-10-28 11:24:25,476 INFO    SenderThread:15208 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-metadata.json wandb-metadata.json
+2024-10-28 11:24:25,476 INFO    SenderThread:15208 [dir_watcher.py:finish():402] scan save: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json wandb-summary.json
+2024-10-28 11:24:25,478 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 10
+2024-10-28 11:24:25,480 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: poll_exit
+2024-10-28 11:24:25,481 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:25,481 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-28 11:24:25,482 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:25,483 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-10-28 11:24:25,483 INFO    SenderThread:15208 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-28 11:24:25,970 INFO    wandb-upload_0:15208 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\config.yaml
+2024-10-28 11:24:25,979 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-28 11:24:25,979 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: poll_exit
+2024-10-28 11:24:26,294 INFO    wandb-upload_1:15208 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\output.log
+2024-10-28 11:24:26,331 INFO    wandb-upload_3:15208 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\wandb-summary.json
+2024-10-28 11:24:26,346 INFO    wandb-upload_2:15208 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\files\requirements.txt
+2024-10-28 11:24:26,555 INFO    Thread-15 :15208 [sender.py:transition_state():614] send defer: 11
+2024-10-28 11:24:26,556 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:26,556 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-28 11:24:26,558 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:26,559 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-10-28 11:24:26,559 INFO    SenderThread:15208 [file_pusher.py:join():175] waiting for file pusher
+2024-10-28 11:24:26,561 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 12
+2024-10-28 11:24:26,562 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:26,562 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-28 11:24:26,563 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:26,564 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-10-28 11:24:26,564 INFO    SenderThread:15208 [file_stream.py:finish():601] file stream finish called
+2024-10-28 11:24:26,992 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-28 11:24:27,232 INFO    SenderThread:15208 [file_stream.py:finish():605] file stream finish is done
+2024-10-28 11:24:27,232 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 13
+2024-10-28 11:24:27,232 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: poll_exit
+2024-10-28 11:24:27,232 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:27,232 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-28 11:24:27,233 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:27,233 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-10-28 11:24:27,233 INFO    SenderThread:15208 [sender.py:transition_state():614] send defer: 14
+2024-10-28 11:24:27,233 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: defer
+2024-10-28 11:24:27,233 INFO    HandlerThread:15208 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-28 11:24:27,234 DEBUG   SenderThread:15208 [sender.py:send():379] send: final
+2024-10-28 11:24:27,234 DEBUG   SenderThread:15208 [sender.py:send():379] send: footer
+2024-10-28 11:24:27,234 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: defer
+2024-10-28 11:24:27,234 INFO    SenderThread:15208 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-10-28 11:24:27,235 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-28 11:24:27,235 DEBUG   SenderThread:15208 [sender.py:send_request():406] send_request: poll_exit
+2024-10-28 11:24:27,236 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 11:24:27,237 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-28 11:24:27,237 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-28 11:24:27,238 DEBUG   HandlerThread:15208 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-28 11:24:27,238 INFO    HandlerThread:15208 [handler.py:finish():882] shutting down handler
+2024-10-28 11:24:28,236 INFO    WriterThread:15208 [datastore.py:close():296] close: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_112127-m42qfzy0\run-m42qfzy0.wandb
+2024-10-28 11:24:28,236 INFO    SenderThread:15208 [sender.py:finish():1608] shutting down sender
+2024-10-28 11:24:28,237 INFO    SenderThread:15208 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-28 11:24:28,237 INFO    SenderThread:15208 [file_pusher.py:join():175] waiting for file pusher

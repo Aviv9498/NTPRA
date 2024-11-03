@@ -1,0 +1,21 @@
+
+Epoch 10/300, Train Loss: 280.0530 , Validation Loss: 228.6978
+Epoch 20/300, Train Loss: 277.3263 , Validation Loss: 225.5781
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 421, in <module>
+    'y_val': y_val,
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 416, in NTP
+    train_hyperparameters = {'model': model,
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 221, in train
+    optimizer.step()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 234, in step
+    adam(params_with_grad,
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 300, in adam
+    func(params,
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 410, in _single_tensor_adam
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

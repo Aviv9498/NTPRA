@@ -1,0 +1,36 @@
+2024-08-19 11:59:31,860 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2024-08-19 11:59:31,860 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Configure stats pid to 25324
+2024-08-19 11:59:31,860 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Loading settings from C:\Users\beaviv\.config\wandb\settings
+2024-08-19 11:59:31,860 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Loading settings from C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\settings
+2024-08-19 11:59:31,860 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-19 11:59:31,861 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'SNDlib_traffic_prediction\\SNDlib_run.py', 'program_abspath': 'C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py', 'program': 'C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py'}
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_init.py:_log_setup():520] Logging user logs to C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20240819_115931-6ta45bot\logs\debug.log
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_init.py:_log_setup():521] Logging internal logs to C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20240819_115931-6ta45bot\logs\debug-internal.log
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_init.py:init():560] calling init triggers
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'Model_Name': 'MLP', 'epochs': 200, 'batch_size': 32, 'lr': 0.0001}
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_init.py:init():610] starting backend
+2024-08-19 11:59:31,863 INFO    MainThread:25324 [wandb_init.py:init():614] setting up manager
+2024-08-19 11:59:31,866 INFO    MainThread:25324 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-19 11:59:31,868 INFO    MainThread:25324 [wandb_init.py:init():622] backend started and connected
+2024-08-19 11:59:31,873 INFO    MainThread:25324 [wandb_init.py:init():711] updated telemetry
+2024-08-19 11:59:32,099 INFO    MainThread:25324 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-08-19 11:59:32,771 INFO    MainThread:25324 [wandb_run.py:_on_init():2402] communicating current version
+2024-08-19 11:59:33,052 INFO    MainThread:25324 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.17.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-08-19 11:59:33,053 INFO    MainThread:25324 [wandb_init.py:init():795] starting run threads in backend
+2024-08-19 11:59:33,537 INFO    MainThread:25324 [wandb_run.py:_console_start():2380] atexit reg
+2024-08-19 11:59:33,537 INFO    MainThread:25324 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-08-19 11:59:33,537 INFO    MainThread:25324 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-08-19 11:59:33,537 INFO    MainThread:25324 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-08-19 11:59:33,539 INFO    MainThread:25324 [wandb_init.py:init():838] run started, returning control to user process
+2024-08-19 12:09:43,513 INFO    MainThread:25324 [wandb_run.py:_finish():2109] finishing run https-www-bgu-ac-il-/SNDlib Traffic Prediction/6ta45bot
+2024-08-19 12:09:43,513 INFO    MainThread:25324 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-08-19 12:09:43,514 INFO    MainThread:25324 [wandb_run.py:_restore():2332] restore
+2024-08-19 12:09:43,514 INFO    MainThread:25324 [wandb_run.py:_restore():2338] restore done
+2024-08-19 12:09:49,464 INFO    MainThread:25324 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-08-19 12:09:49,465 INFO    MainThread:25324 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-08-19 12:09:49,478 INFO    MainThread:25324 [wandb_run.py:_footer_sync_info():3950] logging synced files

@@ -1,0 +1,11 @@
+
+Epoch 50/200, Train Loss: 8362.0939 , Validation Loss: 1125.3102
+Epoch 100/200, Train Loss: 8012.2535 , Validation Loss: 982.6620
+Epoch 150/200, Train Loss: 7832.9096 , Validation Loss: 943.9155
+Epoch 00172: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00178: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00184: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 00190: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00196: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 200/200, Train Loss: 7773.6271 , Validation Loss: 942.2855
+Finished Training GRU, best model was epoch: 168

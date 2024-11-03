@@ -1,0 +1,12 @@
+
+Epoch 10/100, Train Loss: 961.3440 , Validation Loss: 926187.4187
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 344, in <module>
+    train_loss, validation_loss, best_model = train(**train_Hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 205, in train
+    loss.backward()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\autograd\__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

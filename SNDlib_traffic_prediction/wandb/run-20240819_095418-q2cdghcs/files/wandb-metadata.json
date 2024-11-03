@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2024-08-19T06:54:19.931679",
+    "startedAt": "2024-08-19T06:54:18.717442",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py",
+    "codePathLocal": "SNDlib_run.py",
+    "codePath": "SNDlib_traffic_prediction\\SNDlib_run.py",
+    "git": {
+        "remote": "https://github.com/Aviv9498/DIAMOND",
+        "commit": "12d43a69f8f229c1aa91794f14113dd64f99a07c"
+    },
+    "email": null,
+    "root": "C:/Users/beaviv/DIAMOND",
+    "host": "kc616-1",
+    "username": "beaviv",
+    "executable": "C:\\Users\\beaviv\\DIAMOND\\venv\\Scripts\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3696.0,
+        "min": 0.0,
+        "max": 3696.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3696.0,
+            "min": 0.0,
+            "max": 3696.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 926.6150741577148,
+            "used": 292.7320022583008
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 63.85584259033203
+    }
+}

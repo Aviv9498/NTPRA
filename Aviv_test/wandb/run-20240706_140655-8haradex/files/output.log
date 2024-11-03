@@ -1,0 +1,36 @@
+
+Epoch 10/300, Train Loss: 0.0291 , Validation Loss: 0.0294
+Epoch 20/300, Train Loss: 0.0290 , Validation Loss: 0.0293
+Epoch 30/300, Train Loss: 0.0289 , Validation Loss: 0.0295
+Epoch 40/300, Train Loss: 0.0289 , Validation Loss: 0.0290
+Epoch 50/300, Train Loss: 0.0289 , Validation Loss: 0.0291
+Epoch 60/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 70/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 80/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 90/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 100/300, Train Loss: 0.0289 , Validation Loss: 0.0290
+Epoch 110/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 120/300, Train Loss: 0.0289 , Validation Loss: 0.0290
+Epoch 130/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 140/300, Train Loss: 0.0288 , Validation Loss: 0.0292
+Epoch 150/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 160/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Epoch 170/300, Train Loss: 0.0288 , Validation Loss: 0.0291
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 443, in <module>
+    NTP(model_type='LSTM', training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 438, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 223, in train
+    optimizer.step()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 234, in step
+    adam(params_with_grad,
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 300, in adam
+    func(params,
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\optim\adam.py", line 410, in _single_tensor_adam
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

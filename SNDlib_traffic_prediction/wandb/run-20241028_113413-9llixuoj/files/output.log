@@ -1,0 +1,5 @@
+
+Training : GNN Model on : geant Dataset :
+Epoch 50/100, Train Loss: 78.6170 , Validation Loss: 96.8204
+Epoch 100/100, Train Loss: 72.8009 , Validation Loss: 94.7509
+Finished Training geant GNN, best model was epoch: 99

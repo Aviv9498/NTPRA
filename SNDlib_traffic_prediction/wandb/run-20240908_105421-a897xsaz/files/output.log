@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 125, in <module>
+    run(model_name='GNNWithDistance', training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 119, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 71, in train
+    output = model(X_batch, distance)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_Prediction_Model.py", line 188, in forward
+    x = torch.cat([x, distance_expanded], dim=1)  # Concatenate along the feature dimension
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument tensors in method wrapper_cat)

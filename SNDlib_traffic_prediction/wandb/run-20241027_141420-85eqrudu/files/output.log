@@ -1,0 +1,10 @@
+
+Training : LSTM Model on : geant Dataset :
+Epoch 00031: reducing learning rate of group 0 to 2.5000e-03.
+Epoch 00044: reducing learning rate of group 0 to 1.2500e-03.
+Epoch 50/100, Train Loss: 0.0157 , Validation Loss: 0.2277
+Epoch 00056: reducing learning rate of group 0 to 6.2500e-04.
+Epoch 00071: reducing learning rate of group 0 to 3.1250e-04.
+Epoch 00099: reducing learning rate of group 0 to 1.5625e-04.
+Epoch 100/100, Train Loss: 0.0076 , Validation Loss: 0.2209
+Finished Training geant LSTM, best model was epoch: 87

@@ -1,0 +1,30 @@
+2024-09-06 12:17:56,138 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2024-09-06 12:17:56,139 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Configure stats pid to 27944
+2024-09-06 12:17:56,139 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Loading settings from C:\Users\beaviv\.config\wandb\settings
+2024-09-06 12:17:56,139 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Loading settings from C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\settings
+2024-09-06 12:17:56,139 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-09-06 12:17:56,139 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'SNDlib_traffic_prediction\\SNDlib_run.py', 'program_abspath': 'C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py', 'program': 'C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py'}
+2024-09-06 12:17:56,139 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-09-06 12:17:56,139 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-09-06 12:17:56,140 INFO    MainThread:27944 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-09-06 12:17:56,140 INFO    MainThread:27944 [wandb_init.py:_log_setup():520] Logging user logs to C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20240906_121756-hbsowygg\logs\debug.log
+2024-09-06 12:17:56,140 INFO    MainThread:27944 [wandb_init.py:_log_setup():521] Logging internal logs to C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20240906_121756-hbsowygg\logs\debug-internal.log
+2024-09-06 12:17:56,140 INFO    MainThread:27944 [wandb_init.py:init():560] calling init triggers
+2024-09-06 12:17:56,141 INFO    MainThread:27944 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'Model_Name': 'GNN', 'epochs': 100, 'batch_size': 32, 'lr': 0.0001}
+2024-09-06 12:17:56,141 INFO    MainThread:27944 [wandb_init.py:init():610] starting backend
+2024-09-06 12:17:56,141 INFO    MainThread:27944 [wandb_init.py:init():614] setting up manager
+2024-09-06 12:17:56,145 INFO    MainThread:27944 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-09-06 12:17:56,149 INFO    MainThread:27944 [wandb_init.py:init():622] backend started and connected
+2024-09-06 12:17:56,157 INFO    MainThread:27944 [wandb_init.py:init():711] updated telemetry
+2024-09-06 12:17:56,307 INFO    MainThread:27944 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-09-06 12:17:56,975 INFO    MainThread:27944 [wandb_run.py:_on_init():2402] communicating current version
+2024-09-06 12:17:57,225 INFO    MainThread:27944 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.17.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-06 12:17:57,226 INFO    MainThread:27944 [wandb_init.py:init():795] starting run threads in backend
+2024-09-06 12:17:57,946 INFO    MainThread:27944 [wandb_run.py:_console_start():2380] atexit reg
+2024-09-06 12:17:57,946 INFO    MainThread:27944 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-09-06 12:17:57,946 INFO    MainThread:27944 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-09-06 12:17:57,947 INFO    MainThread:27944 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-09-06 12:17:57,959 INFO    MainThread:27944 [wandb_init.py:init():838] run started, returning control to user process
+2024-09-06 12:20:39,133 WARNING MsgRouterThr:27944 [router.py:message_loop():77] message_loop has been closed

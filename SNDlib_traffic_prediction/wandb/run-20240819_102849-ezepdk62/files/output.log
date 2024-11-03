@@ -1,0 +1,11 @@
+
+Epoch 50/200, Train Loss: 8365.3023 , Validation Loss: 1126.7664
+Epoch 100/200, Train Loss: 8013.2004 , Validation Loss: 982.8681
+Epoch 150/200, Train Loss: 7825.9280 , Validation Loss: 943.7314
+Epoch 00173: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00179: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00185: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 00191: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00197: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 200/200, Train Loss: 7772.5580 , Validation Loss: 942.1378
+Finished Training RNN, best model was epoch: 168

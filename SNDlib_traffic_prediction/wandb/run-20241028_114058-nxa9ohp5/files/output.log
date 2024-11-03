@@ -1,0 +1,12 @@
+
+Training : ACRNN Model on : geant Dataset :
+Epoch 00025: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00040: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 50/100, Train Loss: 46.7661 , Validation Loss: 90.9727
+Epoch 00051: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 00062: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00073: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 00084: reducing learning rate of group 0 to 1.5625e-06.
+Epoch 00095: reducing learning rate of group 0 to 7.8125e-07.
+Epoch 100/100, Train Loss: 46.7007 , Validation Loss: 91.0429
+Finished Training geant ACRNN, best model was epoch: 28

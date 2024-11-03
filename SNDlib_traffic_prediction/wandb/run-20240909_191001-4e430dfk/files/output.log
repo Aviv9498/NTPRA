@@ -1,0 +1,6 @@
+
+Epoch 00034: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00043: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00049: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 50/50, Train Loss: 7911.2519 , Validation Loss: 1435.2556
+Finished Training LSTM, best model was epoch: 36

@@ -1,0 +1,28 @@
+
+Epoch 10/200, Train Loss: 0.0348 , Validation Loss: 0.0362
+Epoch 20/200, Train Loss: 0.0351 , Validation Loss: 0.0363
+Epoch 30/200, Train Loss: 0.0349 , Validation Loss: 0.0362
+Epoch 40/200, Train Loss: 0.0349 , Validation Loss: 0.0363
+Epoch 50/200, Train Loss: 0.0348 , Validation Loss: 0.0362
+Epoch 60/200, Train Loss: 0.0348 , Validation Loss: 0.0363
+Epoch 70/200, Train Loss: 0.0348 , Validation Loss: 0.0362
+Epoch 80/200, Train Loss: 0.0349 , Validation Loss: 0.0362
+Epoch 90/200, Train Loss: 0.0349 , Validation Loss: 0.0364
+Epoch 100/200, Train Loss: 0.0348 , Validation Loss: 0.0362
+Epoch 110/200, Train Loss: 0.0348 , Validation Loss: 0.0365
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 385, in <module>
+    NTP(training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 380, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 191, in train
+    output = model(X_batch.unsqueeze(-1))
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 132, in forward
+    out = self.fc(out[:, -1, :])
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

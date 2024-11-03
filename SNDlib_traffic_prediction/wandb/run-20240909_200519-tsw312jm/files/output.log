@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 130, in <module>
+    run(model_name='ACRNN', training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 124, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 74, in train
+    output = model(X_batch)        # output = model(X_batch.unsqueeze(-1))
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_Prediction_Model.py", line 324, in forward
+    h0 = torch.zeros(self.num_layers, batch_size, self.hidden_size).to(x.device)  # Hidden state
+KeyboardInterrupt

@@ -1,0 +1,34 @@
+
+Epoch 10/500, Train Loss: 9133.1722 , Validation Loss: 1611.0251
+Epoch 20/500, Train Loss: 9114.7926 , Validation Loss: 1596.5499
+Epoch 30/500, Train Loss: 9108.8559 , Validation Loss: 1584.6001
+Epoch 40/500, Train Loss: 9078.2912 , Validation Loss: 1573.6037
+Epoch 50/500, Train Loss: 9072.5688 , Validation Loss: 1563.0685
+Epoch 60/500, Train Loss: 9061.2174 , Validation Loss: 1552.8201
+Epoch 70/500, Train Loss: 9039.1043 , Validation Loss: 1542.7910
+Epoch 80/500, Train Loss: 9043.7906 , Validation Loss: 1532.9494
+Epoch 90/500, Train Loss: 9025.2233 , Validation Loss: 1523.2808
+Epoch 100/500, Train Loss: 9005.1761 , Validation Loss: 1513.7759
+Epoch 110/500, Train Loss: 8982.6190 , Validation Loss: 1504.4293
+Epoch 120/500, Train Loss: 8978.0164 , Validation Loss: 1495.2364
+Epoch 130/500, Train Loss: 8967.3552 , Validation Loss: 1486.1919
+Epoch 140/500, Train Loss: 8956.0359 , Validation Loss: 1477.2949
+Epoch 150/500, Train Loss: 8940.5256 , Validation Loss: 1468.5405
+Epoch 160/500, Train Loss: 8920.5965 , Validation Loss: 1459.9267
+Epoch 170/500, Train Loss: 8910.1109 , Validation Loss: 1451.4505
+Epoch 180/500, Train Loss: 8897.8445 , Validation Loss: 1443.1090
+Epoch 190/500, Train Loss: 8891.9665 , Validation Loss: 1434.9004
+Epoch 200/500, Train Loss: 8874.3961 , Validation Loss: 1426.8220
+Epoch 210/500, Train Loss: 8846.4876 , Validation Loss: 1418.8711
+Epoch 220/500, Train Loss: 8849.8522 , Validation Loss: 1411.0474
+Epoch 230/500, Train Loss: 8827.1472 , Validation Loss: 1403.3498
+Epoch 240/500, Train Loss: 8809.2401 , Validation Loss: 1395.7773
+Epoch 250/500, Train Loss: 8813.0666 , Validation Loss: 1388.3284
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 84, in <module>
+    run(training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 79, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 87, in train
+    X_batch, y_batch = X_batch.to(device), y_batch.to(device)
+KeyboardInterrupt

@@ -1,0 +1,32 @@
+
+Epoch 10/300, Train Loss: 0.0326 , Validation Loss: 0.0440
+Epoch 20/300, Train Loss: 0.0323 , Validation Loss: 0.0290
+Epoch 30/300, Train Loss: 0.0321 , Validation Loss: 0.0282
+Epoch 40/300, Train Loss: 0.0320 , Validation Loss: 0.0266
+Epoch 50/300, Train Loss: 0.0320 , Validation Loss: 0.0724
+Epoch 60/300, Train Loss: 0.0319 , Validation Loss: 0.0428
+Epoch 70/300, Train Loss: 0.0319 , Validation Loss: 0.0530
+Epoch 80/300, Train Loss: 0.0318 , Validation Loss: 0.1734
+Epoch 90/300, Train Loss: 0.0318 , Validation Loss: 0.0371
+Epoch 100/300, Train Loss: 0.0331 , Validation Loss: 0.1075
+Epoch 110/300, Train Loss: 0.0318 , Validation Loss: 0.0286
+Epoch 120/300, Train Loss: 0.0319 , Validation Loss: 0.0305
+Epoch 130/300, Train Loss: 0.0318 , Validation Loss: 0.0481
+Epoch 140/300, Train Loss: 0.0318 , Validation Loss: 0.0322
+Epoch 150/300, Train Loss: 0.0318 , Validation Loss: 0.0328
+Epoch 160/300, Train Loss: 0.0317 , Validation Loss: 0.0466
+Epoch 170/300, Train Loss: 0.0317 , Validation Loss: 0.0287
+Epoch 180/300, Train Loss: 0.0316 , Validation Loss: 0.0675
+Epoch 190/300, Train Loss: 0.0316 , Validation Loss: 0.0342
+Epoch 200/300, Train Loss: 0.0317 , Validation Loss: 0.1498
+Epoch 210/300, Train Loss: 0.0324 , Validation Loss: 0.0446
+Epoch 220/300, Train Loss: 0.0316 , Validation Loss: 0.0723
+Epoch 230/300, Train Loss: 0.0317 , Validation Loss: 0.1928
+Epoch 240/300, Train Loss: 0.0317 , Validation Loss: 0.0348
+Epoch 250/300, Train Loss: 0.0319 , Validation Loss: 0.0661
+Epoch 260/300, Train Loss: 0.0317 , Validation Loss: 0.0448
+Epoch 270/300, Train Loss: 0.0316 , Validation Loss: 0.0581
+Epoch 280/300, Train Loss: 0.0316 , Validation Loss: 0.0886
+Epoch 290/300, Train Loss: 0.0316 , Validation Loss: 0.0590
+Epoch 300/300, Train Loss: 0.0363 , Validation Loss: 0.0296
+Finished Training, best model was epoch: 144

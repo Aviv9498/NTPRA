@@ -1,0 +1,17 @@
+
+Epoch 00007: reducing learning rate of group 0 to 5.0000e-07.
+Epoch 00019: reducing learning rate of group 0 to 2.5000e-07.
+Epoch 00025: reducing learning rate of group 0 to 1.2500e-07.
+Epoch 00031: reducing learning rate of group 0 to 6.2500e-08.
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 86, in <module>
+    run(training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 81, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 73, in train
+    loss.backward()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\autograd\__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

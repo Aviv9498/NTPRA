@@ -1,0 +1,20 @@
+
+Epoch 10/300, Train Loss: 0.0997 , Validation Loss: 0.0761
+Epoch 20/300, Train Loss: 0.0992 , Validation Loss: 0.0817
+Epoch 30/300, Train Loss: 0.0987 , Validation Loss: 0.0740
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 500, in <module>
+    NTP(model_type='LSTM', training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 495, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 293, in train
+    val_output = model(X_batch.unsqueeze(-1))
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 202, in forward
+    out, _ = self.lstm(x, (h0, c0))
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\rnn.py", line 774, in forward
+    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+KeyboardInterrupt

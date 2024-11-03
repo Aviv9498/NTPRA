@@ -1,0 +1,5 @@
+
+Training : MLP Model on : geant Dataset :
+Epoch 50/100, Train Loss: 84.8674 , Validation Loss: 101.1583
+Epoch 100/100, Train Loss: 79.2768 , Validation Loss: 97.5892
+Finished Training geant MLP, best model was epoch: 99

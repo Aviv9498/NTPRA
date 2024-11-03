@@ -1,0 +1,24 @@
+
+Epoch 10/300, Train Loss: 0.0268 , Validation Loss: 0.0268
+Epoch 20/300, Train Loss: 0.0266 , Validation Loss: 0.0264
+Epoch 30/300, Train Loss: 0.0266 , Validation Loss: 0.0266
+Epoch 40/300, Train Loss: 0.0265 , Validation Loss: 0.0266
+Epoch 50/300, Train Loss: 0.0276 , Validation Loss: 0.0269
+Epoch 60/300, Train Loss: 0.0277 , Validation Loss: 0.0270
+Epoch 70/300, Train Loss: 0.0274 , Validation Loss: 0.0269
+Epoch 80/300, Train Loss: 0.0271 , Validation Loss: 0.0268
+Epoch 90/300, Train Loss: 0.0271 , Validation Loss: 0.0268
+Epoch 100/300, Train Loss: 0.0271 , Validation Loss: 0.0266
+Epoch 110/300, Train Loss: 0.0274 , Validation Loss: 0.0267
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 443, in <module>
+    NTP(model_type='GRU', training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 438, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 222, in train
+    loss.backward()
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\autograd\__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

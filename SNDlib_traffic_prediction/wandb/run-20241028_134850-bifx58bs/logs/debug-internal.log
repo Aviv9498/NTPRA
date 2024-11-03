@@ -1,0 +1,136 @@
+2024-10-28 13:48:50,314 INFO    StreamThr :14228 [internal.py:wandb_internal():85] W&B internal server running at pid: 14228, started at: 2024-10-28 13:48:50.312980
+2024-10-28 13:48:50,317 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status
+2024-10-28 13:48:50,320 INFO    WriterThread:14228 [datastore.py:open_for_write():87] open: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_134850-bifx58bs\run-bifx58bs.wandb
+2024-10-28 13:48:50,321 DEBUG   SenderThread:14228 [sender.py:send():379] send: header
+2024-10-28 13:48:50,494 DEBUG   SenderThread:14228 [sender.py:send():379] send: run
+2024-10-28 13:48:51,091 INFO    SenderThread:14228 [dir_watcher.py:__init__():211] watching files in: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_134850-bifx58bs\files
+2024-10-28 13:48:51,091 INFO    SenderThread:14228 [sender.py:_start_run_threads():1188] run started: bifx58bs with start time 1730116130.312979
+2024-10-28 13:48:51,113 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: check_version
+2024-10-28 13:48:51,114 DEBUG   SenderThread:14228 [sender.py:send_request():406] send_request: check_version
+2024-10-28 13:48:51,414 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: run_start
+2024-10-28 13:48:51,422 DEBUG   HandlerThread:14228 [system_info.py:__init__():26] System info init
+2024-10-28 13:48:51,423 DEBUG   HandlerThread:14228 [system_info.py:__init__():41] System info init done
+2024-10-28 13:48:51,423 INFO    HandlerThread:14228 [system_monitor.py:start():194] Starting system monitor
+2024-10-28 13:48:51,423 INFO    SystemMonitor:14228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-28 13:48:51,423 INFO    HandlerThread:14228 [system_monitor.py:probe():214] Collecting system info
+2024-10-28 13:48:51,427 INFO    SystemMonitor:14228 [interfaces.py:start():188] Started cpu monitoring
+2024-10-28 13:48:51,429 DEBUG   HandlerThread:14228 [system_info.py:probe():152] Probing system
+2024-10-28 13:48:51,429 INFO    SystemMonitor:14228 [interfaces.py:start():188] Started disk monitoring
+2024-10-28 13:48:51,430 INFO    SystemMonitor:14228 [interfaces.py:start():188] Started gpu monitoring
+2024-10-28 13:48:51,438 INFO    SystemMonitor:14228 [interfaces.py:start():188] Started memory monitoring
+2024-10-28 13:48:51,447 INFO    SystemMonitor:14228 [interfaces.py:start():188] Started network monitoring
+2024-10-28 13:48:51,450 DEBUG   HandlerThread:14228 [system_info.py:_probe_git():137] Probing git
+2024-10-28 13:48:51,753 DEBUG   HandlerThread:14228 [system_info.py:_probe_git():145] Probing git done
+2024-10-28 13:48:51,753 DEBUG   HandlerThread:14228 [system_info.py:probe():200] Probing system done
+2024-10-28 13:48:51,753 DEBUG   HandlerThread:14228 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.9.0', 'heartbeatAt': '2024-10-28T11:48:51.429185', 'startedAt': '2024-10-28T11:48:50.300014', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\beaviv\\DIAMOND\\SNDlib_traffic_prediction\\SNDlib_run.py', 'codePathLocal': 'SNDlib_run.py', 'codePath': 'SNDlib_traffic_prediction\\SNDlib_run.py', 'git': {'remote': 'https://github.com/Aviv9498/DIAMOND', 'commit': 'a2927d761ab4f658da3157fdf9ac9c9ce6dea6e9'}, 'email': None, 'root': 'C:/Users/beaviv/DIAMOND', 'host': 'kc616-1', 'username': 'beaviv', 'executable': 'C:\\Users\\beaviv\\DIAMOND\\venv\\Scripts\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3696.0, 'min': 0.0, 'max': 3696.0}, 'cpu_freq_per_core': [{'current': 3696.0, 'min': 0.0, 'max': 3696.0}], 'disk': {'/': {'total': 926.6150741577148, 'used': 298.81946563720703}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 63.85584259033203}}
+2024-10-28 13:48:51,753 INFO    HandlerThread:14228 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-28 13:48:51,753 INFO    HandlerThread:14228 [system_monitor.py:probe():227] Publishing system info
+2024-10-28 13:48:51,755 INFO    HandlerThread:14228 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-28 13:48:51,756 DEBUG   SenderThread:14228 [sender.py:send():379] send: files
+2024-10-28 13:48:51,756 INFO    SenderThread:14228 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-10-28 13:48:51,904 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-28 13:48:51,904 DEBUG   SenderThread:14228 [sender.py:send_request():406] send_request: python_packages
+2024-10-28 13:48:51,905 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 13:48:51,906 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:51,906 DEBUG   SenderThread:14228 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 13:48:52,107 INFO    Thread-86 :14228 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_134850-bifx58bs\files\wandb-metadata.json
+2024-10-28 13:48:52,108 INFO    Thread-86 :14228 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_134850-bifx58bs\files\requirements.txt
+2024-10-28 13:48:52,290 DEBUG   SenderThread:14228 [sender.py:send():379] send: telemetry
+2024-10-28 13:48:52,570 INFO    wandb-upload_0:14228 [upload_job.py:push():130] Uploaded file C:\Users\beaviv\AppData\Local\Temp\tmpbib6c7fzwandb\u7r7u60e-wandb-metadata.json
+2024-10-28 13:48:52,914 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:53,116 INFO    Thread-86 :14228 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_134850-bifx58bs\files\output.log
+2024-10-28 13:48:53,919 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:54,925 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:55,126 INFO    Thread-86 :14228 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_134850-bifx58bs\files\output.log
+2024-10-28 13:48:55,929 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:56,321 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:48:56,932 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:57,939 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:58,953 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:48:59,959 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:00,964 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:01,921 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:01,966 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:02,982 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:03,996 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:05,003 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:06,011 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:06,919 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 13:49:06,920 DEBUG   SenderThread:14228 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 13:49:07,013 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:07,202 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:08,026 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:09,038 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:10,051 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:11,065 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:12,066 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:12,926 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:13,068 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:14,080 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:15,093 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:16,094 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:17,099 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:17,935 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:18,108 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:19,100 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:20,111 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:21,115 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:21,934 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 13:49:21,935 DEBUG   SenderThread:14228 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 13:49:22,122 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:23,126 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:23,161 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:24,129 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:24,379 INFO    Thread-86 :14228 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\wandb\run-20241028_134850-bifx58bs\files\config.yaml
+2024-10-28 13:49:25,138 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:26,147 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:27,155 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:28,162 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:28,960 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:29,165 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:30,177 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:31,184 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:32,188 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:33,204 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:34,206 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:34,960 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:35,212 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:36,223 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:36,950 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 13:49:36,950 DEBUG   SenderThread:14228 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 13:49:37,230 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:38,236 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:39,240 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:40,219 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:40,250 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:41,261 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:42,264 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:43,273 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:44,276 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:45,285 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:45,994 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:46,295 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:47,309 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:48,316 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:49,322 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:50,335 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:50,994 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:51,342 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:51,453 DEBUG   SystemMonitor:14228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-28 13:49:51,454 DEBUG   SenderThread:14228 [sender.py:send():379] send: stats
+2024-10-28 13:49:51,957 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-28 13:49:51,957 DEBUG   SenderThread:14228 [sender.py:send_request():406] send_request: stop_status
+2024-10-28 13:49:52,351 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:53,358 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:54,350 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:55,357 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:56,291 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:49:56,371 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:57,384 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:58,396 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:49:59,411 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:50:00,413 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:50:01,427 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:50:02,014 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: status_report
+2024-10-28 13:50:02,438 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-28 13:50:03,446 DEBUG   HandlerThread:14228 [handler.py:handle_request():158] handle_request: internal_messages

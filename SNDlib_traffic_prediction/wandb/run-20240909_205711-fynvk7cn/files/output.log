@@ -1,0 +1,15 @@
+
+Epoch 00037: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00043: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00049: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 50/100, Train Loss: 7182.1147 , Validation Loss: 1287.9081
+Epoch 00055: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00061: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 00067: reducing learning rate of group 0 to 1.5625e-06.
+Epoch 00073: reducing learning rate of group 0 to 7.8125e-07.
+Epoch 00079: reducing learning rate of group 0 to 3.9063e-07.
+Epoch 00085: reducing learning rate of group 0 to 1.9531e-07.
+Epoch 00091: reducing learning rate of group 0 to 9.7656e-08.
+Epoch 00097: reducing learning rate of group 0 to 4.8828e-08.
+Epoch 100/100, Train Loss: 7200.2067 , Validation Loss: 1287.6319
+Finished Training GRU, best model was epoch: 37

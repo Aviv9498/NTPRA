@@ -1,0 +1,5 @@
+
+Training : LSTM Model on : geant Dataset :
+Epoch 50/100, Train Loss: 91.5983 , Validation Loss: 104.4832
+Epoch 100/100, Train Loss: 88.6192 , Validation Loss: 102.8885
+Finished Training geant LSTM, best model was epoch: 96

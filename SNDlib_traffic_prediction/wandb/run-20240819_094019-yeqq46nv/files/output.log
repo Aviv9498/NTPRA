@@ -1,0 +1,11 @@
+
+Epoch 50/2000, Train Loss: 8456.3347 , Validation Loss: 1163.1879
+Epoch 100/2000, Train Loss: 8237.3957 , Validation Loss: 1043.6593
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 91, in <module>
+    run(model_name="GRU", training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 85, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 96, in train
+    running_loss += criterion(val_output, y_batch).item()
+KeyboardInterrupt

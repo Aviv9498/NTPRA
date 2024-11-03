@@ -1,0 +1,19 @@
+
+Training : GRU Model on : geant Dataset :
+Epoch 50/300, Train Loss: 76.4923 , Validation Loss: 93.9224
+Epoch 00083: reducing learning rate of group 0 to 2.5000e-03.
+Epoch 100/300, Train Loss: 66.0906 , Validation Loss: 86.6587
+Epoch 00106: reducing learning rate of group 0 to 1.2500e-03.
+Epoch 00139: reducing learning rate of group 0 to 6.2500e-04.
+Epoch 00150: reducing learning rate of group 0 to 3.1250e-04.
+Epoch 150/300, Train Loss: 63.8213 , Validation Loss: 85.4160
+Epoch 00177: reducing learning rate of group 0 to 1.5625e-04.
+Epoch 00188: reducing learning rate of group 0 to 7.8125e-05.
+Epoch 00199: reducing learning rate of group 0 to 3.9063e-05.
+Epoch 200/300, Train Loss: 62.1833 , Validation Loss: 84.6207
+Epoch 250/300, Train Loss: 60.8694 , Validation Loss: 84.0608
+Epoch 00268: reducing learning rate of group 0 to 1.9531e-05.
+Epoch 00289: reducing learning rate of group 0 to 9.7656e-06.
+Epoch 00300: reducing learning rate of group 0 to 4.8828e-06.
+Epoch 300/300, Train Loss: 60.4293 , Validation Loss: 83.6248
+Finished Training geant GRU, best model was epoch: 277

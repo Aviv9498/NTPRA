@@ -1,0 +1,10 @@
+
+Training : MLP Model on : geant Dataset :
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 160, in <module>
+    run(model_name=model_name, dataset='geant', training=True, test=False)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_run.py", line 149, in run
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\SNDlib_traffic_prediction\SNDlib_train.py", line 79, in train
+    loss = criterion(output, y_batch)
+KeyboardInterrupt

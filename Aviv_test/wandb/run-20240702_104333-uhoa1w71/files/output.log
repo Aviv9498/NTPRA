@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 385, in <module>
+    NTP(training=True, test=False, generate_matrix=False)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 380, in NTP
+    train_loss, validation_loss, best_model = train(**train_hyperparameters)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 160, in train
+    model.load_state_dict(torch.load(model_path, map_location=device))
+  File "C:\Users\beaviv\DIAMOND\venv\lib\site-packages\torch\nn\modules\module.py", line 1671, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for LSTMNetwork:
+	Missing key(s) in state_dict: "lstm.weight_ih_l2", "lstm.weight_hh_l2", "lstm.bias_ih_l2", "lstm.bias_hh_l2", "lstm.weight_ih_l3", "lstm.weight_hh_l3", "lstm.bias_ih_l3", "lstm.bias_hh_l3".
+	size mismatch for lstm.weight_ih_l0: copying a param with shape torch.Size([200, 1]) from checkpoint, the shape in current model is torch.Size([400, 1]).
+	size mismatch for lstm.weight_hh_l0: copying a param with shape torch.Size([200, 50]) from checkpoint, the shape in current model is torch.Size([400, 100]).
+	size mismatch for lstm.bias_ih_l0: copying a param with shape torch.Size([200]) from checkpoint, the shape in current model is torch.Size([400]).
+	size mismatch for lstm.bias_hh_l0: copying a param with shape torch.Size([200]) from checkpoint, the shape in current model is torch.Size([400]).
+	size mismatch for lstm.weight_ih_l1: copying a param with shape torch.Size([200, 50]) from checkpoint, the shape in current model is torch.Size([400, 100]).
+	size mismatch for lstm.weight_hh_l1: copying a param with shape torch.Size([200, 50]) from checkpoint, the shape in current model is torch.Size([400, 100]).
+	size mismatch for lstm.bias_ih_l1: copying a param with shape torch.Size([200]) from checkpoint, the shape in current model is torch.Size([400]).
+	size mismatch for lstm.bias_hh_l1: copying a param with shape torch.Size([200]) from checkpoint, the shape in current model is torch.Size([400]).
+	size mismatch for fc.weight: copying a param with shape torch.Size([1, 50]) from checkpoint, the shape in current model is torch.Size([1, 100]).

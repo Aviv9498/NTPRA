@@ -1,0 +1,15 @@
+
+Epoch 00036: reducing learning rate of group 0 to 5.0000e-05.
+Epoch 00042: reducing learning rate of group 0 to 2.5000e-05.
+Epoch 00048: reducing learning rate of group 0 to 1.2500e-05.
+Epoch 50/100, Train Loss: 6276.4774 , Validation Loss: 758.4907
+Epoch 00054: reducing learning rate of group 0 to 6.2500e-06.
+Epoch 00060: reducing learning rate of group 0 to 3.1250e-06.
+Epoch 00066: reducing learning rate of group 0 to 1.5625e-06.
+Epoch 00072: reducing learning rate of group 0 to 7.8125e-07.
+Epoch 00078: reducing learning rate of group 0 to 3.9063e-07.
+Epoch 00084: reducing learning rate of group 0 to 1.9531e-07.
+Epoch 00090: reducing learning rate of group 0 to 9.7656e-08.
+Epoch 00096: reducing learning rate of group 0 to 4.8828e-08.
+Epoch 100/100, Train Loss: 6237.7067 , Validation Loss: 762.1210
+Finished Training GNNWithDistance, best model was epoch: 29

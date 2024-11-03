@@ -1,0 +1,32 @@
+
+Epoch 10/300, Train Loss: 9126.6379 , Validation Loss: 1604.6454
+Epoch 20/300, Train Loss: 9099.2346 , Validation Loss: 1585.9372
+Epoch 30/300, Train Loss: 9077.1491 , Validation Loss: 1568.9091
+Epoch 40/300, Train Loss: 9052.6309 , Validation Loss: 1552.6486
+Epoch 50/300, Train Loss: 9032.0394 , Validation Loss: 1536.8829
+Epoch 60/300, Train Loss: 9010.1855 , Validation Loss: 1521.5397
+Epoch 70/300, Train Loss: 8986.2738 , Validation Loss: 1506.6030
+Epoch 80/300, Train Loss: 8968.0195 , Validation Loss: 1492.0549
+Epoch 90/300, Train Loss: 8944.6085 , Validation Loss: 1477.8853
+Epoch 100/300, Train Loss: 8927.2585 , Validation Loss: 1464.0836
+Epoch 110/300, Train Loss: 8907.5795 , Validation Loss: 1450.6361
+Epoch 120/300, Train Loss: 8887.7672 , Validation Loss: 1437.5359
+Epoch 130/300, Train Loss: 8861.9569 , Validation Loss: 1424.7727
+Epoch 140/300, Train Loss: 8850.0200 , Validation Loss: 1412.3344
+Epoch 150/300, Train Loss: 8831.9908 , Validation Loss: 1400.2184
+Epoch 160/300, Train Loss: 8813.3946 , Validation Loss: 1388.4140
+Epoch 170/300, Train Loss: 8796.0161 , Validation Loss: 1376.9165
+Epoch 180/300, Train Loss: 8778.6753 , Validation Loss: 1365.7208
+Epoch 190/300, Train Loss: 8761.5598 , Validation Loss: 1354.8207
+Epoch 200/300, Train Loss: 8739.2783 , Validation Loss: 1344.2102
+Epoch 210/300, Train Loss: 8721.3218 , Validation Loss: 1333.8808
+Epoch 220/300, Train Loss: 8710.4235 , Validation Loss: 1323.8250
+Epoch 230/300, Train Loss: 8690.7651 , Validation Loss: 1314.0363
+Epoch 240/300, Train Loss: 8680.8367 , Validation Loss: 1304.5078
+Epoch 250/300, Train Loss: 8665.6983 , Validation Loss: 1295.2317
+Epoch 260/300, Train Loss: 8650.4908 , Validation Loss: 1286.1999
+Epoch 270/300, Train Loss: 8632.3326 , Validation Loss: 1277.4036
+Epoch 280/300, Train Loss: 8621.2981 , Validation Loss: 1268.8362
+Epoch 290/300, Train Loss: 8601.0273 , Validation Loss: 1260.4900
+Epoch 300/300, Train Loss: 8592.7026 , Validation Loss: 1252.3558
+Finished Training, best model was epoch: 299

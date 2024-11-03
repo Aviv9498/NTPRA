@@ -1,0 +1,14 @@
+
+Training : MLP Model on : geant Dataset :
+Epoch 50/300, Train Loss: 66.2227 , Validation Loss: 86.6973
+Epoch 100/300, Train Loss: 56.5714 , Validation Loss: 82.1701
+Epoch 150/300, Train Loss: 52.7205 , Validation Loss: 79.6916
+Epoch 00195: reducing learning rate of group 0 to 2.5000e-03.
+Epoch 200/300, Train Loss: 47.6450 , Validation Loss: 76.4055
+Epoch 00213: reducing learning rate of group 0 to 1.2500e-03.
+Epoch 250/300, Train Loss: 45.0320 , Validation Loss: 73.7495
+Epoch 00253: reducing learning rate of group 0 to 6.2500e-04.
+Epoch 00289: reducing learning rate of group 0 to 3.1250e-04.
+Epoch 00300: reducing learning rate of group 0 to 1.5625e-04.
+Epoch 300/300, Train Loss: 42.4804 , Validation Loss: 72.0523
+Finished Training geant MLP, best model was epoch: 277

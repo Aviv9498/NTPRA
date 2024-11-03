@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 443, in <module>
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 438, in NTP
+    plot_curves(train_losses=train_loss, val_losses=validation_loss, model=model_type)
+  File "C:\Users\beaviv\DIAMOND\Aviv_test\Traffic_prediction_model.py", line 183, in train
+    os.makedirs(save_dir, exist_ok=True)
+KeyboardInterrupt

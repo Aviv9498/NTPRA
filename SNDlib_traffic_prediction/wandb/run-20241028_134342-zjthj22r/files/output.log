@@ -1,0 +1,12 @@
+
+Training : GNN Model on : geant Dataset :
+Epoch 50/300, Train Loss: 75.5009 , Validation Loss: 92.8854
+Epoch 00077: reducing learning rate of group 0 to 2.5000e-03.
+Epoch 100/300, Train Loss: 72.5325 , Validation Loss: 90.5609
+Epoch 150/300, Train Loss: 71.7277 , Validation Loss: 89.9425
+Epoch 00166: reducing learning rate of group 0 to 1.2500e-03.
+Epoch 00180: reducing learning rate of group 0 to 6.2500e-04.
+Epoch 200/300, Train Loss: 70.1227 , Validation Loss: 88.9360
+Epoch 250/300, Train Loss: 69.1964 , Validation Loss: 88.5183
+Epoch 300/300, Train Loss: 68.8459 , Validation Loss: 88.2713
+Finished Training geant GNN, best model was epoch: 299
